@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20rem;
+}
+
+.title-page {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+
+    color: #222;
+}
+
+.title-div {
+    margin-right: 10rem;
+}
+
+.title-div img {
+    margin-left: 20%;
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    border-radius: 5px;
+
+    outline: none;
+}
+
+button {
+    border: none;
+    font-weight: bold;
+    padding: 0.5rem;
+    background-color: #0074D9;
+
+    border-radius: 5px;
+
+    color: white;
+    outline: none;
+     
+    cursor: pointer;
+
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #7FDBFF;
+    transition: background-color 0.5s;
+}
+
+.register-component {
+    display: grid;
+    min-width: 20rem;
+    max-width: 20rem;
+}
+
+.alert-error {
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: red;
+}
+
+.alert-sucess {
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: green;
+}

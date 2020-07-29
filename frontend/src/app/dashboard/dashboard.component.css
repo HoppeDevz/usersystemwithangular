@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-change-username {
+    display: grid;
+}
+
+.form-change-username .input-non-focus {
+    pointer-events: none;
+    height: 0.1rem;
+    border: none;
+    border-bottom: 1px solid #0074D9;
+
+    outline: none;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #7777;
+}
+
+.input-focus {
+    height: 1rem;
+    border: none;
+    border-bottom: 1px solid #0074D9;
+
+    transition: height 0.2s;
+
+    outline: none;
+}
+
+.change-username-button {
+    margin-top: 0.7rem;
+}

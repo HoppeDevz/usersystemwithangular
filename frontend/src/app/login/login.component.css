@@ -1,0 +1,157 @@
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.login-container {
+    background-image: url("https://i.imgur.com/NyS03YM.png");
+    position: absolute;
+    height: 100.8%;
+    width: 100.4%;
+
+    margin-top: -1rem;
+    margin-left: -1rem;
+}
+
+.login-container-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20rem;
+
+    max-width: 50%;
+    margin-left: 7rem;
+}
+
+.tilte-display img {
+    margin-top: 1.2rem;
+    margin-right: 0.4rem;
+}
+
+.tilte-display {
+    width: 100%;
+    display: grid;
+}
+
+.form-login {
+    display: grid;
+    margin-left: -30rem;
+
+    min-width: 20rem;
+    max-width: 20rem;
+}
+
+.loginButton {
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+
+    cursor: pointer;
+}
+
+.alert-error {
+    opacity: 100%;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 20rem;
+
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: #222;
+
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    border-radius: 7px;
+
+    outline: none;
+
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #444;
+    transition: background-color 0.2s;
+}
+
+.input-non-focus-username {
+    pointer-events: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #c4473a;
+    height: 0.2rem;
+
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.input-non-focus-password {
+    pointer-events: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #c4473a;
+    height: 0.2rem;
+
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.input-focus {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #c4473a;
+
+    margin-bottom: 1rem;
+    outline: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+
+    height: 2rem;
+    transition: height 0.2s;
+}
+
+.form-group {
+    display: grid;
+}
+
+.username-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+
+.password-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+
+    margin-top: 1rem;
+}
